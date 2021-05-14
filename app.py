@@ -15,7 +15,7 @@ def response(text):
     res=res.item()
     res=dict[res]
     return res
-keywords=['carrier','social media','contact','service','location','bye','others']
+keywords=['career','social media','contact','service','location','bye','others']
 email=[]
 def check_mail(text):
     if text in keywords:
