@@ -32,7 +32,7 @@ def check_mail(text):
         if len(email)==0:
             res='please enter your mail id for better experience'
         else:
-            res="""please enter the option regarding querry, 1) service 2) carrier' 3) contact 4) location 5) social media 6) others """
+            res="""please enter the option regarding querry, 1) service 2) carrier 3) contact 4) location 5) social media 6) others """
     return(res)
 app = Flask(__name__)
 
